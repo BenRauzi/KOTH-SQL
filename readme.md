@@ -1,8 +1,8 @@
 # KOTH with SQL Install Instructions
 
 - Install ExtDB3 - make sure to install tbbmalloc.dll and tbbmalloc_x64.dll (https://bitbucket.org/torndeco/extdb3/downloads/)
-    -> Add KOTH.ini to sql_custom
-    -> Setup SQL Server Connection in extdb_conf.ini
+    - Add KOTH.ini to sql_custom
+    - Setup SQL Server Connection in extdb_conf.ini
 - Load 'KOTH.sql' as a table in database 'KOTH' on your MySQL Server
 - Pack Harris_Server and Load on Serverbackend
 - Configure @koth_settings
