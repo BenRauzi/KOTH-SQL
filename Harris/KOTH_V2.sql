@@ -1,0 +1,19 @@
+SET FOREIGN_KEY_CHECKS=0;
+
+CREATE DATABASE IF NOT EXISTS `KOTH`;
+USE `KOTH`;
+
+
+CREATE TABLE IF NOT EXISTS `users` (
+  `user` int(20) DEFAULT NULL AUTO_INCREMENT,
+  `uid` varchar(50) DEFAULT NULL,
+  `cash` int(20) DEFAULT NULL,
+  `xp` int(10) DEFAULT NULL,
+  `exp` int(10) DEFAULT NULL,
+  `sp` int(10) DEFAULT NULL,
+  `gear` varchar(500) DEFAULT NULL,
+  `time` varchar(500) DEFAULT NULL,
+
+  PRIMARY KEY (`user`),
+  UNIQUE KEY `uid` (`uid`)
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1;
