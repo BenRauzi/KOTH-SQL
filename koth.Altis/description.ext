@@ -1,0 +1,259 @@
+/*
+	ArmA 3 King of Hill
+	Code written by Sa-Matra
+	Using this code without Sa-Matra's direct permission is forbidden
+	
+	Special build for Gamed.de
+	
+	Build ETYKMBSIGDHGNALL
+*/
+author=" Glass ";
+
+onLoadName = "国服占山为王";
+
+onLoadMission = "这是你没有玩过的全新版本";
+
+respawn="BASE";
+
+respawnDelay=3;
+
+disabledAI=1;
+
+disableChannels[]={2};
+
+enableItemsDropping=0;
+
+enableDebugConsole=1;
+
+joinUnassigned=0;
+
+corpseLimit=9001;
+
+wreckLimit=9001;
+
+onPauseScript="onPauseScript.sqf";
+
+loadScreen="a3loading.jpg";
+
+
+class Header
+{
+gameType=KOTH;
+minPlayers=1;
+
+maxPlayers=100;
+
+};
+
+#include "infiSTAR_AdminMenu.hpp"
+#include "pg\PG_config.hpp"
+#include "client\hpp\idcs.hpp"
+#include "client\hpp\a3_common.hpp"
+#include "client\hpp\dlg_admin.hpp"
+#include "client\hpp\dlg_perks.hpp"
+#include "client\hpp\dlg_rules.hpp"
+#include "client\hpp\dlg_groups.hpp"
+#include "client\hpp\dlg_loadout.hpp"
+#include "client\hpp\dlg_rewards.hpp"
+#include "client\hpp\dlg_costumes.hpp"
+#include "client\hpp\dlg_vehicles.hpp"
+#include "client\hpp\dlg_settings.hpp"
+#include "client\hpp\dlg_playermenu.hpp"
+#include "client\hpp\dlg_teambalance.hpp"
+class RscTitles{
+#include "pg\PG_rsctitles.hpp"
+#include "client\hpp\ttl_hud.hpp"
+};
+
+class CfgSounds{sounds[]={};
+class KOH_LevelUp{name="";
+sound[]={"\sounds\levelup.ogg",db-1,1};
+titles[]={};
+};
+class KOH_Cash{name="";
+sound[]={"\sounds\cash.ogg",db-2,1};
+titles[]={};
+};
+class KOH_Win{name="";
+sound[]={"\sounds\win.ogg",db-3,1};
+titles[]={};
+};
+class KOH_Lose{name="";
+sound[]={"\sounds\lose.ogg",db-4,1};
+titles[]={};
+};
+};
+
+class CfgDebriefing{
+     class Win{
+	    title="胜 利";
+
+		subtitle="";
+
+		description="";
+
+		pictureBackground="";
+
+		picture="";
+
+		pictureColor[]={0.0,0.3,0.6,1};
+
+		};
+
+		
+		class BadProfile{
+		    title="Profile error";
+
+			subtitle="存档版本无效";
+
+			};
+
+			
+		class TooManyBLUFOR{
+			title=$STR_KOH_TeamBalance_Title;
+
+		    subtitle="蓝军玩家过多";
+
+	        };
+
+			  
+	    class TooManyOPFOR:TooManyBLUFOR{
+		    subtitle="红军玩家过多";
+
+	        };
+
+				  
+	    class TooManyIndep:TooManyBLUFOR{
+		    subtitle="绿军玩家过多";
+
+		    };
+
+			
+		class LockedToBLUFOR:TooManyBLUFOR{
+		    subtitle=$STR_KOH_TeamBalance_LockedToBLUFOR_Subtitle;
+
+		    description=$STR_KOH_TeamBalance_LockedToBLUFOR_Description;
+
+		};
+
+		
+		class LockedToOPFOR:LockedToBLUFOR{
+		   subtitle=$STR_KOH_TeamBalance_LockedToOPFOR_Subtitle;
+
+		   description=$STR_KOH_TeamBalance_LockedToOPFOR_Description;
+
+		};
+
+		
+		class LockedToIndep:LockedToBLUFOR{subtitle=$STR_KOH_TeamBalance_LockedToIndependent_Subtitle;
+description=$STR_KOH_TeamBalance_LockedToIndependent_Description;
+};
+class VONSpam{title="VON Spam";
+subtitle="You can no longer play here";
+};
+class Teamkilling{title="Teamkilling";
+subtitle="You were removed for teamkilling";
+};
+
+};
+
+class CfgKingOfTheHillSettings{setTimeMultiplier=12;
+teamBalanceEnabled=1;
+teamBalanceThreshold=4;
+teamBalanceMinSidePlayers=10;
+teamBalanceStartsAfterTime=60;
+noSameTown=1;
+noSameTime=0;
+jetBuyDelay=(60*10);
+viewDistanceLimitFoot=3000;
+viewDistanceLimitGround=3000;
+viewDistanceLimitHelis=3000;
+viewDistanceLimitJets=5000;
+disableFreeHeli=0;
+disableSpawnTruck=0;
+shutdownServerAfterRounds=0;
+shutdownServerPassword="123";
+trustedUIDs[]={"76561198446291075"};
+
+class MissionChances_Tanoa{
+class Georgetown{
+id=0;
+RandomSpawns=0;
+Chance=2;
+class TimeChances{Dawn=1;
+Day=4;
+Sunset=1;
+NightBright=1;
+NightDark=1;
+};
+};
+class Tanouka{id=1;
+RandomSpawns=0;
+Chance=1;
+class TimeChances{Dawn=1;
+Day=4;
+Sunset=1;
+NightBright=1;
+NightDark=1;
+};
+};
+};
+
+class MissionChances{
+class Kavala{
+id=0;
+RandomSpawns=0;
+Chance=4;
+class TimeChances{Dawn=1;
+Day=4;
+Sunset=1;
+NightBright=1;
+NightDark=1;
+};
+};
+};
+
+class RulesDialog{class RulesText{English="";
+};
+};
+
+disableTowers=0;
+
+disableVehicleThermals=0;
+
+disableKilledByWeaponAndDistance=0;
+
+#define REMOVE_PERK_AMMO		0
+#define REMOVE_PERK_EXPLOSIVE		1
+#define REMOVE_PERK_SNIPER		2
+#define REMOVE_PERK_LAUNCHER		3
+#define REMOVE_PERK_SILENCER		4
+#define REMOVE_PERK_ENGINEER		5
+#define REMOVE_PERK_SPAWNER		6
+#define REMOVE_PERK_DISCOUNT		7
+#define REMOVE_PERK_INDEFATIGABLE	8
+#define REMOVE_PERK_DESIGNATOR		9
+#define REMOVE_PERK_MACHINEGUNNER	10
+#define REMOVE_PERK_MEDIC		11
+#define REMOVE_PERK_COUNTERMEASURES	12
+DisabledPerks[]={};
+
+DisabledWeapons[]={};
+
+class VehiclesAvailability{};
+};
+
+class CfgRemoteExec{
+    class Functions{
+	   mode=0;
+
+	   jip=0;
+
+	};
+
+	class Commands{
+	   mode=0;
+
+	};
+
+};

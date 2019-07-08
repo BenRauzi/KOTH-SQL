@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="A3KingOfTheHill">
+	<Package name="General">
+		<Key ID="STR_CFG_papabear">
+			<English>警告</English>
+			<Russian>Внимание</Russian>
+		</Key>
+		<Key ID="STR_KOH_KingOfHill">
+			<English>King of Hill</English>
+			<Russian>King of Hill</Russian>
+		</Key>
+		<Key ID="STR_KOH_bySaMatra">
+			<English>by Sa-Matra</English>
+			<Russian>by Sa-Matra</Russian>
+		</Key>
+		<Key ID="STR_KOH_Me">
+			<English>&amp;lt;You&amp;gt;</English>
+			<Russian>&amp;lt;Вы&amp;gt;</Russian>
+		</Key>
+		<Key ID="STR_KOH_Me2">
+			<English>You</English>
+			<Russian>Вы</Russian>
+		</Key>
+		<Key ID="STR_KOH_Yours">
+			<English>Yours</English>
+			<Russian>Ваш</Russian>
+		</Key>
+		<Key ID="STR_KOH_LobbyPlayer">
+			<English>玩家</English>
+			<Russian>Игрок</Russian>
+		</Key>
+		<Key ID="STR_KOH_Player">
+			<English>&amp;lt;Player&amp;gt;</English>
+			<Russian>&amp;lt;Игрок&amp;gt;</Russian>
+		</Key>
+		<Key ID="STR_KOH_Teammate">
+			<English>&amp;lt;Teammate&amp;gt;</English>
+			<Russian>&amp;lt;Союзник&amp;gt;</Russian>
+		</Key>
+		<Key ID="STR_KOH_Teammate2">
+			<English>Teammate</English>
+			<Russian>Союзник</Russian>
+		</Key>
+		<Key ID="STR_KOH_Groupmate">
+			<English>&amp;lt;Groupmate&amp;gt;</English>
+			<Russian>&amp;lt;Товарищ&amp;gt;</Russian>
+		</Key>
+		<Key ID="STR_KOH_Groupmate2">
+			<English>Groupmate</English>
+			<Russian>Товарищ</Russian>
+		</Key>
+		<Key ID="STR_KOH_Enemy">
+			<English>&amp;lt;Enemy&amp;gt;</English>
+			<Russian>&amp;lt;Враг&amp;gt;</Russian>
+		</Key>
+		<Key ID="STR_KOH_Enemy2">
+			<English>Enemy</English>
+			<Russian>Враг</Russian>
+		</Key>
+		<Key ID="STR_KOH_Gen_TeamWEST">
+			<English>BLUFOR</English>
+			<Russian>Синие</Russian>
+		</Key>
+		<Key ID="STR_KOH_Gen_TeamWEST_2">
+			<English>BLUFOR</English>
+			<Russian>синих</Russian>
+		</Key>
+		<Key ID="STR_KOH_Gen_TeamWEST_3">
+			<English>BLUFOR</English>
+			<Russian>Синих</Russian>
+		</Key>
+		<Key ID="STR_KOH_Gen_TeamEAST">
+			<English>OPFOR</English>
+			<Russian>Красные</Russian>
+		</Key>
+		<Key ID="STR_KOH_Gen_TeamEAST_2">
+			<English>OPFOR</English>
+			<Russian>красных</Russian>
+		</Key>
+		<Key ID="STR_KOH_Gen_TeamEAST_3">
+			<English>OPFOR</English>
+			<Russian>Красных</Russian>
+		</Key>
+		<Key ID="STR_KOH_Gen_TeamGUER">
+			<English>Independent</English>
+			<Russian>Зеленые</Russian>
+		</Key>
+		<Key ID="STR_KOH_Gen_TeamGUER_2">
+			<English>independent</English>
+			<Russian>зеленых</Russian>
+		</Key>
+		<Key ID="STR_KOH_Gen_TeamGUER_3">
+			<English>Independent</English>
+			<Russian>Зеленых</Russian>
+		</Key>
+		<Key ID="STR_KOH_Gen_TeamCIV">
+			<English>Enemy</English>
+			<Russian>Противник</Russian>
+		</Key>
+		<Key ID="STR_KOH_Gen_TeamCIV_2">
+			<English>enemy</English>
+			<Russian>противника</Russian>
+		</Key>
+		<Key ID="STR_KOH_Gen_TeamCIV_3">
+			<English>Enemy</English>
+			<Russian>Противника</Russian>
+		</Key>
+		<Key ID="STR_KOH_Gen_Warning">
+			<English>警告！</English>
+			<Russian>Внимание!</Russian>
+		</Key>
+		<Key ID="STR_KOH_Gen_LoadingUppercaseUnderscore">
+			<English>加载中_</English>
+			<Russian>ЗАГРУЗКА_</Russian>
+		</Key>
+		<Key ID="STR_KOH_Gen_RespawnInUppercase">
+			<English>即将重生</English>
+			<Russian>ПОЯВЛЕНИЕ ЧЕРЕЗ</Russian>
+		</Key>
+		<Key ID="STR_KOH_NoChatMessageHidden">
+			<English>Chat hidden</English>
+			<Russian>Чат скрыт. Нажмите Ctrl + Shift + C чтобы включить чат обратно</Russian>
+		</Key>
+		<Key ID="STR_KOH_NoChatMessageEnabled">
+			<English>Chat enabled</English>
+			<Russian>Чат включен</Russian>
+		</Key>
+		<Key ID="STR_KOH_Teamswitch_10minutes">
+			<English>你将在10分钟后被锁定到当前阵营</English>
+			<Russian>Смена команды будет запрещена через 10 минут.</Russian>
+		</Key>
+		<Key ID="STR_KOH_Teamswitch_5minutes">
+			<English>你将在5分钟后被锁定到当前阵营</English>
+			<Russian>Смена команды будет запрещена через 5 минут.</Russian>
+		</Key>
+		<Key ID="STR_KOH_Teamswitch_Locked">
+			<English>你已被锁定到%1，无法改变阵营！</English>
+			<Russian>Вы выбрали команду %1 и переходить за другую команду больше нельзя.</Russian>
+		</Key>
+		<Key ID="STR_KOH_Gen_BaseWEST">
+			<English>蓝军基地</English>
+			<Russian>База синих</Russian>
+		</Key>
+		<Key ID="STR_KOH_Gen_BaseEAST">
+			<English>红军基地</English>
+			<Russian>База красных</Russian>
+		</Key>
+		<Key ID="STR_KOH_Gen_BaseGUER">
+			<English>绿军基地</English>
+			<Russian>База зеленых</Russian>
+		</Key>
+		<Key ID="STR_KOH_Gen_BaseENEMY">
+			<English>敌军基地</English>
+			<Russian>База противника</Russian>
+		</Key>
+	</Package>
+	<Package name="Progression">
+		<Key ID="STR_KOH_UnbanReset">
+			<English>Your KOTH profile has been reset due to a prior ban for profile cheating. If you had legitimately gained levels before editing your profile, join our %1Discord%2 and request a restore from an administrator in #koth-profile-restore channel. Any attempts to cheat again will result in a permanent with no chance of appeal. Any alternative accounts will be permanently banned as well.</English>
+			<Russian>Ваш профиль в KOTH был сброшел из-за того что вы были забанены за его взлом. Если у вас был честный высокий уровень, вы можете попросить администратора его вам вернуть на %1Discord%2 канале #koth-profile-restore. Если вы снова попытаетесь взломать профиль, то следующий бан будет навсегда, включая запрет и последующий бан при попытке играть на наших серверах с новых аккаунтов.</Russian>
+		</Key>
+	</Package>
+	<Package name="Dialog_General">
+		<Key ID="STR_KOH_Dlg_Close">
+			<English>关闭</English>
+			<Russian>Закрыть</Russian>
+		</Key>
+	</Package>
+	<Package name="Dialog_Inventory">
+		<Key ID="STR_KOH_Dlg_RepackMagazines">
+			<English>Repack all magazines</English>
+			<Russian>Перезарядить магазины</Russian>
+		</Key>
+		<Key ID="STR_KOH_Dlg_RepackingMagazines">
+			<English>Repacking %1 magazines</English>
+			<Russian>Перезарядка %1 магазинов</Russian>
+		</Key>
+		<Key ID="STR_KOH_Dlg_RepackingDone">
+			<English>Magazines repacked!</English>
+			<Russian>Магазины перезаряжены!</Russian>
+		</Key>
+	</Package>
+	<Package name="Actions">
+		<Key ID="STR_KOH_Act_Busy">
+			<English>You are already doing something</English>
+			<Russian>Вы уже выполняете действие</Russian>
+		</Key>
+	</Package>
+	<Package name="Diary">
+		<Key ID="STR_KOH_Diary_ChangelogNew">
+			<English>New</English>
+			<Russian>Новое</Russian>
+		</Key>
+		<Key ID="STR_KOH_Diary_ChangelogFixed">
+			<English>Fixed</English>
+			<Russian>Исправлено</Russian>
+		</Key>
+		<Key ID="STR_KOH_Diary_ChangelogChanged">
+			<English>Changed</English>
+			<Russian>Изменено</Russian>
+		</Key>
+		<Key ID="STR_KOH_Diary_ChangelogEntry">
+			<English>Changes in %1</English>
+			<Russian>Изменения в %1</Russian>
+		</Key>
+		<Key ID="STR_KOH_Diary_Changelog_v2">
+			<English>%1 Helicopter main rotor no longer should stop because of ejecting or bugged players nearby&lt;br/&gt;&lt;br/&gt;%2 Tactical insertion now awards more XP. You also now get award as pilot for paradropping other players over the objective&lt;br/&gt;%2 Prices rebalancing, most stuff is more expensive now&lt;br/&gt;%2 Repair site walls are much shorter now&lt;br/&gt;%2 Quads and Offroads are no longer free and cost a little bit of money&lt;br/&gt;%2 Bought vehicles spawn locked&lt;br/&gt;&lt;br/&gt;%3 Players in &quot;debug zone&quot; should no longer appear on the map&lt;br/&gt;%3 Fixed cleanup bugs and tweaked timings&lt;br/&gt;%3 Field repair now works for local vehicles&lt;br/&gt;%3 Players number counter should now be more stable&lt;br/&gt;%3 You no longer can revive enemies&lt;br/&gt;</English>
+			<Russian>%1 Несущий ротор вертолета больше не должен выключиться от прыгающих из вертолета игроков&lt;br/&gt;&lt;br/&gt;%2 Награда за высадку на точке теперь дает больше опыта. Так же появилась награда за парашютный сброс игроков на точку&lt;br/&gt;%2 Изменения в ценах, теперь все дороже&lt;br/&gt;%2 Стенки ремонтной площадки теперь гораздо ниже&lt;br/&gt;%2 Квадры и пикапы больше не бесплатные и стоят немного денег&lt;br/&gt;%2 Купленная техника появляется закрытой&lt;br/&gt;&lt;br/&gt;%3 Игроки в &quot;дебаг зоне&quot; больше не должны появляться на карте&lt;br/&gt;%3 Исправлены баги в отчистке карты и подправлена частота отчистки&lt;br/&gt;%3 Полевой ремонт теперь работает для локальной техники&lt;br/&gt;%3 Счетчик количества игроков теперь должен быть более стабильным&lt;br/&gt;%3 Оживлять врагов больше нельзя&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_KOH_Diary_Changelog_v3">
+			<English>%1 Players spawn with GPS&lt;br/&gt;&lt;br/&gt;%3 More cleanup fixes and adjustments&lt;br/&gt;%3 You can now lock and unlock owned vehicles while being inside&lt;br/&gt;%3 Ejecting from locked vehicles now works in all cases&lt;br/&gt;%3 Field repairing and full servicing correctly repairs main rotor&lt;br/&gt;%3 Prevented a cause for profile load failure&lt;br/&gt;</English>
+			<Russian>%1 Игроки появляются с GPS&lt;br/&gt;&lt;br/&gt;%3 Еще исправленные баги отчистки карты&lt;br/&gt;%3 Теперь можно закрывать и открывать свою технику, сидя внутри&lt;br/&gt;%3 Выпрыгивание из закрытой техники теперь всегда правильно работает&lt;br/&gt;%3 Полевой ремонт и полная починка правильно чинят основной ротор&lt;br/&gt;%3 Исправлена одна из причин возможной неудачной загрузки профиля&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_KOH_Diary_Changelog_v4">
+			<English>%1 Players get kicked for idling&lt;br/&gt;&lt;br/&gt;%2 PO-30 Orca no longer has guided DAGR rockets but unguided DAR instead&lt;br/&gt;&lt;br/&gt;%3 OPFOR Riflemans now have vest with proper armor value&lt;br/&gt;</English>
+			<Russian>%1 Игроков выкидывает из игры за просиживание без действий&lt;br/&gt;&lt;br/&gt;%2 PO-30 Касатка больше не имеет управляемых ракет DAGR и появляется с неуправляемыми DAR&lt;br/&gt;&lt;br/&gt;%3 Пехотинцы Красных теперь появляются с обвесом с нормальным уровнем брони&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_KOH_Diary_Changelog_v5">
+			<English>%1 Helicopters with flares automatically shoot flares on incoming missile&lt;br/&gt;%1 Notice about permanent buying of scopes in Loadout editor dialog&lt;br/&gt;%1 Map during revive to see if there are players nearby&lt;br/&gt;%1 GPS now displays player map markers&lt;br/&gt;%1 Reward for being revived at the objective&lt;br/&gt;%1 Resetting loadout to free one uses owned items if possible&lt;br/&gt;&lt;br/&gt;%2 Icons display distance is now relative to current view distance set in settings&lt;br/&gt;&lt;br/&gt;%3 Player revive is now more reliable and fallen teammates should be able to be revived in all cases&lt;br/&gt;</English>
+			<Russian>%1 Вертолеты автоматически отстреливают контрмеры при запуске по ним ракеты&lt;br/&gt;%1 Предупреждение о покупке прицелов навсегда в меню покупки снаряжения&lt;br/&gt;%1 Будучи убитым теперь есть карта, чтобы видеть союзников рядом с вами&lt;br/&gt;%1 Маркеры игроков теперь отображаются и на GPS&lt;br/&gt;%1 Награда за то что вас реанимировали на цели&lt;br/&gt;%1 Сброс набора снаряжения на бесплатный выбирает купленные вещи, если возможно&lt;br/&gt;&lt;br/&gt;%2 Дальность отрисовки иконок теперь соответствует дальность прорисовки установленной в настройках&lt;br/&gt;&lt;br/&gt;%3 Система воскрешения союзников теперь более надежна и должна позволять воскрешать игроков во всех случаях&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_KOH_Diary_Changelog_v6">
+			<English>%1 Jets&lt;br/&gt;%1 Shooting vehicles from safe zone is no longer allowed&lt;br/&gt;%1 Auto kicking for global and side channel voice spam&lt;br/&gt;&lt;br/&gt;%2 Full vehicle service time now depends on vehicle&lt;br/&gt;&lt;br/&gt;%3 Vermin now has silencer when SLCR perk active&lt;br/&gt;%3 Newly bought vehicles no longer can be exploited for XP and Money&lt;br/&gt;%3 Leaving the game while your vehicle is locked now properly unlocks it&lt;br/&gt;%3 Getting kills with Hellcat properly awards kills to pilot, not co-pilot&lt;br/&gt;%3 Icons over players should now be more reliable&lt;br/&gt;</English>
+			<Russian>%1 Самолеты&lt;br/&gt;%1 Стрельба из техники внутри безопасной зоны на базе теперь запрещена&lt;br/&gt;%1 Автоматическое исключение из игры за голосовой чат в общем и канале стороны&lt;br/&gt;&lt;br/&gt;%2 Время полного сервиса техники на базе зависит от типа техники&lt;br/&gt;&lt;br/&gt;%3 На Vermin правильно устанавливается глушитель при активном перке SLCR&lt;br/&gt;%3 Купленную технику больше нельзя сразу взрывать, чтобы заработать деньги и опыт&lt;br/&gt;%3 Закрытая техника теперь открывается, когда вы выходите из игры&lt;br/&gt;%3 Убийства с помощью Hellcat правильно награждают пилота, а не ко-пилота&lt;br/&gt;%3 Иконки над игроками должны быть более надежными&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_KOH_Diary_Changelog_v7">
+			<English>%1 Empty vehicles that get deleted by cleanup are considered as destroyed and players that damaged it get rewards&lt;br/&gt;%1 Players no longer allowed to join teams that has most number of players if this team has 3 players more than second most populated team&lt;br/&gt;%1 Bought alive vehicles get refunded on round end&lt;br/&gt;%1 Friendly grenades indicators.&lt;br/&gt;%1 Armored vehicles crew gets warned when they are lased by AT Titan or PCML.&lt;br/&gt;%1 Medic perk.&lt;br/&gt;%1 Free truck now respawns.&lt;br/&gt;%1 Now you can lockpick vehicles locked by the enemy.&lt;br/&gt;%1 Unarmed Po-30 now has countermeasures.&lt;br/&gt;&lt;br/&gt;%2 Appearances rebalanced, Specialists now have armored vests&lt;br/&gt;%2 AA Buzzard now has 6 AA rockets, costs more. Both Buzzards have twice as much 20mm ammo.&lt;br/&gt;%2 Thermal scopes were removed. If you have them permanently bought they still remain so but are unaccesible for now.&lt;br/&gt;%2 SMGs now have much more ammo.&lt;br/&gt;%2 You are allowed to buy cheap vehicles each 1 minute instead of 3 minutes.&lt;br/&gt;%2 Cleanup script ignores jets.&lt;br/&gt;%2 Parachute landing improved, no more sliding.&lt;br/&gt;&lt;br/&gt;%3 Fixed bug that sometimes deleted dead player right after their death&lt;br/&gt;%3 Vehicle crew list now works properly with stream safe option enabled&lt;br/&gt;%3 Fixed bug where crashing helicopter did not properly award vehicle kill to player that damaged the helicopter&lt;br/&gt;%3 MX SW now gets silencer with SILENCER perk.&lt;br/&gt;%3 Independent revive icons now properly display on the map.&lt;br/&gt;%3 Vertical scrollbars now scroll with adequate speed using mousewheel.&lt;br/&gt;%3 HUD fixes for different resolutions.&lt;br/&gt;%3 Eject now works again.&lt;br/&gt;%3 AI no longer spawns at the island.&lt;br/&gt;</English>
+			<Russian>%1 Пустая техника, которую удает скрипт отчистки, теперь считается уничтоженной и игроки нанесшие ей урон получают награды&lt;br/&gt;%1 Игроки больше не могут заходить в команды с наибольшим количеством игроков, если в этой команде больше на 3 игрока, чем во второй по количеству игроков&lt;br/&gt;%1 Деньги за выжившую купленную технику возвращаются к концу матча&lt;br/&gt;%1 Индикторы гранат, брошенных союзниками.&lt;br/&gt;%1 Экипаж бронированной техники получает оповещение когда на них наводятся титаном или PCML.&lt;br/&gt;%1 Перк &quot;Медик&quot;.&lt;br/&gt;%1 Грузовик на базе снова появляется после уничтожения.&lt;br/&gt;%1 Теперь можно взламывать технику, закрытую противником.&lt;br/&gt;%1 Невооруженный Ка-60 теперь снаряжен контрмерами.&lt;br/&gt;&lt;br/&gt;%2 Комплекты одежды отбалансированы, специалисты теперь имеют бронежилеты&lt;br/&gt;%2 Противовоздушный Буззард теперь снаряжен 6 ракетами воздух-воздух и стоит дороже. Обе версии самолета начинают со вдвое большим количеством боеприпасов к пушке.&lt;br/&gt;%2 Тепловизионные прицелы были убраны из игры. Если они у вас куплены, то они останутся купленными, просто пока нельзя брать.&lt;br/&gt;%2 Пистолеты-пулеметы теперь поставляются с большим количеством магазинов.&lt;br/&gt;%2 Повторная покупка дешевой техники теперь разрешается через 1 минуту, вместо 3 минут как было раньше.&lt;br/&gt;%2 Скрипт отчистки игнорирует самолеты.&lt;br/&gt;%2 Улучшено приземление с парашютом, больше нет скольжения по земле.&lt;br/&gt;&lt;br/&gt;%3 Исправлен баг, удаляющий игрока сразу же как только он умер&lt;br/&gt;%3 Список игроков в технике теперь правильно работает со включенной опцией Stream Safe&lt;br/&gt;%3 Исправлен баг при котором разбивание вертолета не награждало игрока нанесшего вертолету урон, приведший к падению&lt;br/&gt;%3 MX SW снабжается глушителем когда у вас есть соответствующий перк.&lt;br/&gt;%3 Иконки игроков без сознания теперь отображаются на карте правильно для команды зеленых.&lt;br/&gt;%3 Вертикальные прокрутки теперь двигаются с адекватной скоростью при прокрутке колёсиком мыши.&lt;br/&gt;%3 Исправлены проблемы интерфейса на некоторых разрешениях экрана.&lt;br/&gt;%3 Действие &quot;Выпрыгнуть&quot; теперь работает всегда.&lt;br/&gt;%3 Бот больше не появляется на острове.&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_KOH_Diary_Changelog_v8">
+			<English>%2 No more radio chatter&lt;br/&gt;%2 Night visions even during bright nights&lt;br/&gt;%2 Delivering players on ground gives reward proportional to number of enemies on objective&lt;br/&gt;&lt;br/&gt;%3 You can now open dead body inventories properly again&lt;br/&gt;</English>
+			<Russian>%2 Болтовни по радио больше нет&lt;br/&gt;%2 ПНВ даже во время светлой ночи&lt;br/&gt;%2 Доставка игроков до точки наземной техникой награждает вас пропорционально количеству врагов на точке&lt;br/&gt;&lt;br/&gt;%3 Снова можно открывать инвентари мертвых игроков&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_KOH_Diary_Changelog_v9">
+			<English>%1 Press F1 to mute sound feature from Wasteland&lt;br/&gt;%1 Buying jet gets you pilot uniform&lt;br/&gt;%1 Marksman DLC support&lt;br/&gt;%1 New town to play in - Sofia&lt;br/&gt;%1 Healing other players rewards you with little XP and money (only once per their life)&lt;br/&gt;%1 Black MX (and variants) becomes available if you permabuy default one&lt;br/&gt;%1 Huron and Taru DLC helicopters are now available for purchase (visible only if you have DLC bought)&lt;br/&gt;%1 Kajman unguided rockets are now under pilots control while turret guided weapons remain for the gunner&lt;br/&gt;%1 Auto-flaring now happens only if you have countermeasures perk equipped&lt;br/&gt;%1 You get all earned money and xp throughout the round again if your team wins (saved between rejoins too)&lt;br/&gt;%1 New safe zone system&lt;br/&gt;%1 Bought vehicles remain yours even after rejoin (including getting refund for them)&lt;br/&gt;&lt;br/&gt;%2 All teams get end game bonus which is similar to what was victory bonus but it will be proportional to their team's final score.&lt;br/&gt;%2 More smoke grenades and even more smoke grenades if you take medic perk&lt;br/&gt;%2 Revive icons are visible from all distances&lt;br/&gt;%2 Little bit more ammo for all primary weapons&lt;br/&gt;%2 Fatigue gain decreased twice&lt;br/&gt;%2 You are not longer allowed to eject from free helicopter pilot\copilot seats&lt;br/&gt;%2 Buzzard (AA) has less Anti-Air rockets&lt;br/&gt;%2 Repair time no longer depends on crew inside vehicle&lt;br/&gt;%2 Pawnee has flares again, cost increased&lt;br/&gt;%2 Guided launchers (Titans) no longer allowed in safe zone&lt;br/&gt;%2 IR grenades removed&lt;br/&gt;&lt;br/&gt;%3 Fixed bug where you sometimes didn't get any rockets\grenades for your launcher&lt;br/&gt;%3 Groups reworked, invites use less traffic and produce less lag (Ported from Wasteland)&lt;br/&gt;%3 End game camera in Agios Dionysios now shows correct town&lt;br/&gt;%3 Fixed situation where vehicle cleanup deleted free helicopter mid-flight&lt;br/&gt;%3 Fixed cases where kill\assist wasn't awarded if vehicle was destroyed indirectly&lt;br/&gt;%3 Fixed a bug preventing respawn icon appearing over just killed players or appearing and instantly disappearing&lt;br/&gt;%3 Change loadout character at the base now properly plays idle animation&lt;br/&gt;</English>
+			<Russian>%1 Функция F1 чтобы приглушить звук из Wasteland'а&lt;br/&gt;%1 При покупке самолета ваш костюм меняется на костюм пилота&lt;br/&gt;%1 Новое оружие из Marksman DLC&lt;br/&gt;%1 Новый город - София&lt;br/&gt;%1 Лечение других игроков аптечками награждает вас небольшим количеством опыта и денег (один раз за жизнь игрока, которого лечите)&lt;br/&gt;%1 Черные MX (и варианты) появляются в списке снаряжения, если вы покупаете обычную версию навсегда&lt;br/&gt;%1 Вертолеты Хурон и Тару доступны для покупки, если у вас куплено DLC&lt;br/&gt;%1 Неуправляемые ракеты на Каймане теперь управляются пилотом&lt;br/&gt;%1 Автоматически отброс ловушек происходит только если у вас есть перк &quot;Countermeasures&quot;&lt;br/&gt;%1 Вас награждают всеми заработанными деньги и опытом в течении игры еще раз, если ваша команда выигрывает (так же сохраняется между перезаходами)&lt;br/&gt;%1 Новая система безопасных зон&lt;br/&gt;%1 Купленная техника остается вашей, даже после перезахода (включая возврат денег в конце игры)&lt;br/&gt;&lt;br/&gt;%2 Все команды теперь будут получать бонус в конце игры, примерно как бонус за победу, но только пропорциональный количеству очков их команды.&lt;br/&gt;%2 Больше дымовых гранат и еще больше, если есть перк медика&lt;br/&gt;%2 Иконки оживления видны на любом расстоянии&lt;br/&gt;%2 Чуть больше патронов для основного оружия&lt;br/&gt;%2 Усталость накапливается в два раза медленнее&lt;br/&gt;%2 Выпрыгивать с мест пилота и второго пилота бесплатных вертолетов больше нельзя&lt;br/&gt;%2 У Buzzard (AA) теперь меньше ракет воздух-воздух&lt;br/&gt;%2 Время ремонта больше не зависит от экипажа в технике&lt;br/&gt;%2 Пауни снова поставляется с контрмерами, цена увеличена&lt;br/&gt;%2 Запуск управляемых ракеты с пехотных пусковых установок теперь запрещен в безопасной зоне&lt;br/&gt;%2 Убраны инфракрасные гранаты&lt;br/&gt;&lt;br/&gt;%3 Исправлен баг, когда при некоторых условиях вам не давали выстрелов к гранатомету или ПТРК&lt;br/&gt;%3 Группы переработаны, отправка инвайтов больше не должна создавать лагов (Импортировано из Wasteland)&lt;br/&gt;%3 Камера в конце игры в Agios Dionysios показывает правильный город&lt;br/&gt;%3 Исправлена ситуация когда скрипт отчистки удалял бесплатный вертолет во время полета&lt;br/&gt;%3 Исправлены случаи когда награда за уничтожение техники\помощь не давались атакующему игроку при не прямом уничтожении техники&lt;br/&gt;%3 Исправлен баг при котором иконка оживления появлалась и быстро исчезала над убитым игроком&lt;br/&gt;%3 Правильно проигрывается анимация персонажа, у которого можно менять снаряжение&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_KOH_Diary_Changelog_v9+">
+			<English>%1 BIPOD perk which adds bipod to primary weapons that support it. Default bipods removed where possible&lt;br/&gt;%1 You can order a rescue boat when you're in deep water&lt;br/&gt;%1 Screen notification shows up when a new jet enters the airspace if you're in an aircraft yourself&lt;br/&gt;%1 Custom version of King of the Hill where admins can disable or limit weapons, perks and vehicles&lt;br/&gt;%1 Mobile artillery is now available to purchase in the vehicles menu&lt;br/&gt;%1 Added camera shake effect when taking damage in vehicles&lt;br/&gt;%1 Vehicle destruction rewards now depend on each vehicles total value&lt;br/&gt;%1 Added microphone icons over players and on the map from Wasteland&lt;br/&gt;%1 Bunker Towers are now marked on the map&lt;br/&gt;%1 Vehicle smoke screens now deter guided missiles&lt;br/&gt;%1 Lasing targets now rewards you a vehicle kill assists if the aircraft manages to destroy it. Works with handheld lasers only.&lt;br/&gt;%1 Active team balance that will now move players from the most populated teams, after moving them some compensation is granted. This only happens on respawn.&lt;br/&gt;%1 COUNTERMEASURES perk automatically drops smokes in case of an incoming rocket. Works only when you're in the commander seat.&lt;br/&gt;%1 Laser designator target marker is visible both in-person and on the map&lt;br/&gt;%1 Reviving or tactically inserting players will grant you assists for their kills&lt;br/&gt;&lt;br/&gt;%2 Safe zone now activates in 10 seconds after you enter it&lt;br/&gt;&lt;br/&gt;%3 Fixed revive icons in vehicles&lt;br/&gt;%3 Fixed an issue where jets sometimes spawned with no velocity&lt;br/&gt;%3 Fixed field repair sometimes not repairing some parts of vehicles (such as the commander turret)&lt;br/&gt;</English>
+			<Russian>%1 Новый перк BIPOD добавляет сошки на основное оружие, если это возможно. Плюс убраны сошки с оружия по-умолчанию, где возможно&lt;br/&gt;%1 Можно заказать спасательную лодку когда вы плаваете в глубокой воде&lt;br/&gt;%1 Оповещение о появлении нового самолета появляется на экране, если вы сами находитесь в самолете или вертолете&lt;br/&gt;%1 Особая версия King of the Hill в которой админы могут выключать оружие, перки или технику&lt;br/&gt;%1 Теперь можно покупать самоходную артиллерию&lt;br/&gt;%1 Тряска камеры при получении урона будучи в технике&lt;br/&gt;%1 Награда за уничтожение техники заивист от цены техники&lt;br/&gt;%1 Иконки микрофона над игроками и на карте из Wasteland'а&lt;br/&gt;%1 Башни-бункера помечены на карте&lt;br/&gt;%1 Дымовая завеса на технике меняет курс управляемых ракет&lt;br/&gt;%1 Награда за целеуказание, если самолет успешно уничтожает технику. Работает только с ручными целеуказателями.&lt;br/&gt;%1 Активный баланс команд, который будет перемещать игроков из наибольшей команды с некоторой компенсацией&lt;br/&gt;%1 Перк COUNTERMEASURES автоматически сбрасывает дыми в случае приближающейся ракеты. Работает только если вы на месте командира.&lt;br/&gt;%1 Целеуказатели видны в игре и на карте&lt;br/&gt;%1 Оживление или доставка на точку игроков будет награждать вас наградами за помощь на все убийства или уничтожения которые они сделают&lt;br/&gt;&lt;br/&gt;%2 Безопасная зона начинает действовать только через 10 секунд после входа в нее&lt;br/&gt;&lt;br/&gt;%3 Исправлены иконки оживления когда тело лежит в технике&lt;br/&gt;%3 Исправлена ошибка при которой самолеты иногда появлялись без скорости&lt;br/&gt;%3 Исправлен алгоритм полевого ремонта, который иногда не ремонтировал некоторые части (например командирскую турель)&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_KOH_Diary_Changelog_v9++">
+			<English>%1 Apex update content&lt;br/&gt;%1 New Altis hill locations&lt;br/&gt;%1 10 minutes delay between being able to buy jets&lt;br/&gt;%1 Ability to sell your own vehicles or vehicles captured from the enemy at repair site (except jets)&lt;br/&gt;%1 Setting to enable reward sound only for kill rewards&lt;br/&gt;%1 Ability to kick out players out of your vehicles, unless they're on cargo positions&lt;br/&gt;%1 Distance bonus for kills over 500 meters&lt;br/&gt;%1 Bonus for killing player that killed 4 players or more in a streak&lt;br/&gt;%1 Damaged jets lose fuel&lt;br/&gt;%1 Unflip action to unflip stuck vehicles&lt;br/&gt;&lt;br/&gt;%2 Huge groups will be also auto balanced&lt;br/&gt;&lt;br/&gt;%3 Not all magazines were loaded into weapon when you recieve your loadout&lt;br/&gt;%3 Buying vehicles sometimes spawned it on top of other vehicle&lt;br/&gt;</English>
+			<Russian>%1 Обновление Apex&lt;br/&gt;%1 Новые точки для игры на Альтисе&lt;br/&gt;%1 Задержка в 10 минут между моментами покупки самолета&lt;br/&gt;%1 Возможность продавать свою или захваченную у противника технику на ремплощадке (кроме самолетов)&lt;br/&gt;%1 Настройка устанавливающая проигрывание звука только для наград при уничтожении техники и убийстве игроков&lt;br/&gt;%1 Возможность выкидывать игроков из своей техники, но только если они не на пассажирских местах&lt;br/&gt;%1 Награда за убийство с 500 метров и более&lt;br/&gt;%1 Награда за убийство игрока с 4-мя или более убийствами в течении одной жизни&lt;br/&gt;%1 Поврежденные самолеты теряют топливо&lt;br/&gt;%1 Действие по переворачиванию перевернутой техники&lt;br/&gt;&lt;br/&gt;%2 Большие группы так же подвергаются авто балансу&lt;br/&gt;&lt;br/&gt;%3 Не все магазины были сразу заряжены при получении оружия на базе&lt;br/&gt;%3 При покупке техники иногда она появлялась прямо на другой технике&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_KOH_Diary_Changelog_v9.1">
+			<English>%1 Magazine repack button on inventory screen&lt;br/&gt;%1 Lightweight appearances affect your speed&lt;br/&gt;%1 Tanoa-specific uniforms colors&lt;br/&gt;&lt;br/&gt;%2 Appearances rebalanced between all 3 sides&lt;br/&gt;&lt;br/&gt;%3 VTOLs were using jet view distance limits instead of helicopter ones&lt;br/&gt;%3 Icons were not showing for 100 meters view distance&lt;br/&gt;%3 Weapons no longer disappear after revive&lt;br/&gt;</English>
+			<Russian>%1 Кнопка перезарядки магазинов в меню инвентаря&lt;br/&gt;%1 Легкие комплекты снаряжения влияют на вашу скорость&lt;br/&gt;%1 Цвета снаряжения для Таноа&lt;br/&gt;&lt;br/&gt;%2 Комплекты снаряжения теперь более сбалансированы между командами&lt;br/&gt;&lt;br/&gt;%3 Конвертопланы использовали дальности обзора от самолетов, а не вертолетов&lt;br/&gt;%3 Иконки не показывались на дальности в 100 метров&lt;br/&gt;%3 Оружие больше не пропадает после оживления&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_KOH_Diary_Changelog_v9.2">
+			<English>%1 Full potential end game bonus is displayed on spawn screen&lt;br/&gt;&lt;br/&gt;%2 VTOLs have thermal sights again&lt;br/&gt;%2 You can taxi and sell jets at repair site&lt;br/&gt;%2 Opening player menu by pressing tilde key once hides it from mousewheel action menu&lt;br/&gt;%2 View distances for everything but jets are limited back to 3km&lt;br/&gt;%2 AKM no longer gets additional mags because it is early available weapon unlike it was originally&lt;br/&gt;&lt;br/&gt;%3 BLUFOR specop gear set no longer always gives you backpack&lt;br/&gt;%3 Speed bonus no longer resets after getting revived&lt;br/&gt;%3 AP Titan was not considered as guided weapon&lt;br/&gt;%3 Friendly players backpacks can be opened again now&lt;br/&gt;%3 Fixed exploit allowing one First Aid Kit to be used infinite times&lt;br/&gt;</English>
+			<Russian>%1 На экране появления в игре теперь видно потенциальный бонус за завершение матча&lt;br/&gt;&lt;br/&gt;%2 На конвертопланах снова появился тепловизор&lt;br/&gt;%2 Самолет можно продать если вырулить его на ремплощадку&lt;br/&gt;%2 Единожды открыв меню игрока клавишей тильда, его больше не будет в меню колесиком&lt;br/&gt;%2 Дальности обзора снова ограничены 3 километрами для всей техники кроме самолетов&lt;br/&gt;%2 АКМу больше не дают дополнительных магазинов&lt;br/&gt;&lt;br/&gt;%3 Костюм спецназа синих больше не дает вам рюкзак, когда он не нужен&lt;br/&gt;%3 Бонус скорости больше не спадает после оживления&lt;br/&gt;%3 Противопехотный ПТРК Титан не считался управляемым оружием&lt;br/&gt;%3 Снова можно открывать рюкзаки дружественных игроков&lt;br/&gt;%3 Исправлена уязвимость позволявшая пользоваться одной аптечкой бесконечно много раз&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_KOH_Diary_Changelog_v9.3">
+			<English>%3 Joining overpopulated team sometimes didn't do team balance check&lt;br/&gt;</English>
+			<Russian>%3 Иногда при подключении в самую большую команду не срабатывала проверка на баланс команд&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_KOH_Diary_Changelog_v9.4">
+			<English>%3 Leaving players were remaining in game as AI units since last Arma 3 update&lt;br/&gt;%3 Revive icons over incapacitated players in buildings were appearing at ground level&lt;br/&gt;</English>
+			<Russian>%3 После последнего обновления Arma 3, выходящие из игры игроки оставались в игре в виде ботов&lt;br/&gt;%3 Иконки оживления над раненными игроками внутри зданий иногда рисовались на уровне земли&lt;br/&gt;</Russian>
+		</Key>
+		<Key ID="STR_KOH_Diary_Changelog_v9.5">
+			<English>%1 New Jets DLC content&lt;br/&gt;&lt;br/&gt;%2 Scripted fuel leak removed&lt;br/&gt;%2 OPFOR Specop has negative speed modifier like other Specop gear sets&lt;br/&gt;&lt;br/&gt;%3 CMR-76 had no suppressor after recent Arma 3 update&lt;br/&gt;%3 Repacking magazines without vest caused some magazines to disappear&lt;br/&gt;</English>
+			<Russian>%1 Новые самолеты из DLC&lt;br/&gt;&lt;br/&gt;%2 Убрана старая утечка топлива&lt;br/&gt;%2 Костюм спецназа красных теперь так же с минусом скорости как и другие костюмы спецназа других сторон&lt;br/&gt;&lt;br/&gt;%3 У CMR-76 не было глушителя после последнего обновления игры&lt;br/&gt;%3 Иногда исчезали магазины при перезарядке магазинов, когда не было надето обвеса&lt;br/&gt;</Russian>
+		</Key>
+	</Package>
+	<Package name="Hints">
+		<Key ID="STR_KOH_Hint_IconsWindowsKey">
+			<English>玩家名称和等级</English>
+			<Russian>Имя игрока и его уровень</Russian>
+		</Key>
+		<Key ID="STR_KOH_Hint_IconsWindowsKeyText">
+			<English>你可以按Windows徽标键来查看队友的名称，如果你离他们足够近，还能看到他们的等级</English>
+			<Russian>Вы можете узнать имя игрока нажав клавишу "Windows". Если вы рядом с ним, вы так же увидите его уровень.</Russian>
+		</Key>
+		<Key ID="STR_KOH_Hint_JetRearm">
+			<English>固定翼补给</English>
+			<Russian>Перезарядка самолета</Russian>
+		</Key>
+		<Key ID="STR_KOH_Hint_JetRearmText">
+			<English>把飞机停在地上之后滚轮选择"固定翼补给"即可进行补给（不保证能安全起飞哦）</English>
+			<Russian>Чтобы перезарядить и отремонтировать самолет вы должны приземлиться в любое место так, чтобы потом можно было взлететь, полностью остановить самолет и выбрать действие "Обслуживание самолета". Будьте внимательны так как вы можете быть уничтожены на земле!</Russian>
+		</Key>
+		<Key ID="STR_KOH_Hint_Gestures">
+			<English>战术手语</English>
+			<Russian>Жесты</Russian>
+		</Key>
+		<Key ID="STR_KOH_Hint_GesturesText">
+			<English>你可以通过同时按左Shift和数字键盘来做战术手语.</English>
+			<Russian>Можно показывать жесты нажатием левого шифта и цифр на цифровой клавиатуре.</Russian>
+		</Key>
+	</Package>
+	<Package name="TeamBalance">
+		<Key ID="STR_KOH_TeamBalance_Title">
+			<English>团队平衡</English>
+			<Russian>Баланс команд</Russian>
+		</Key>
+		<Key ID="STR_KOH_TeamBalance_Text">
+			<English>%1 team has way too many players and you were moved to another team. To compensate the switch you got full victory bonus as if your team won the game. Please join %2 in the lobby.</English>
+			<Russian>В команде %1 слишком много игроков и вас переместили в другую. В качестве компенсации вам выдали полную награду как если бы вы победили. Пожалуйста зайдите за %2 в лобби.</Russian>
+		</Key>
+		<Key ID="STR_KOH_TeamBalance_Text2">
+			<English>%1 team has way too few players and you were selected to be moved there. Please go back to lobby and select a role in %1 team. To compensate the switch you got full victory bonus as if your team won the game.</English>
+			<Russian>В команде %1 слишком мало игроков и игра выбрала вас для ее пополнения. Пожалуйста, вернитесь в лобби и выберите команду %1. В качестве компенсации вам выдали полную награду как если бы вы победили.</Russian>
+		</Key>
+		<Key ID="STR_KOH_TeamBalance_Or">
+			<English>or</English>
+			<Russian>или</Russian>
+		</Key>
+		<Key ID="STR_KOH_TeamBalance_Lobby">
+			<English>Lobby</English>
+			<Russian>Лобби</Russian>
+		</Key>
+		<Key ID="STR_KOH_TeamBalance_LockedToBLUFOR_Description">
+			<English>你已经被团队平衡锁定到了蓝军. 请返回大厅，选择蓝军团队角色. 谢谢.</English>
+			<Russian>Баланс команд определил вам команду синих. Пожалуйста вернитесь в лобби и выберите роль в команде синих. Спасибо за понимание.</Russian>
+		</Key>
+		<Key ID="STR_KOH_TeamBalance_LockedToOPFOR_Description">
+			<English>你已经被团队平衡锁定到了红军. 请返回大厅，选择红军团队角色. 谢谢.</English>
+			<Russian>Баланс команд определил вам команду красных. Пожалуйста вернитесь в лобби и выберите роль в команде красных. Спасибо за понимание.</Russian>
+		</Key>
+		<Key ID="STR_KOH_TeamBalance_LockedToIndependent_Description">
+			<English>你已经被团队平衡锁定到了绿军. 请返回大厅，选择绿军团队角色. 谢谢.</English>
+			<Russian>Баланс команд определил вам команду зеленых. Пожалуйста вернитесь в лобби и выберите роль в команде зеленых. Спасибо за понимание.</Russian>
+		</Key>
+		<Key ID="STR_KOH_TeamBalance_LockedToBLUFOR_Subtitle">
+			<English>请玩蓝军</English>
+			<Russian>Пожалуйста играйте за синих</Russian>
+		</Key>
+		<Key ID="STR_KOH_TeamBalance_LockedToOPFOR_Subtitle">
+			<English>请玩红军</English>
+			<Russian>Пожалуйста играйте за красных</Russian>
+		</Key>
+		<Key ID="STR_KOH_TeamBalance_LockedToIndep_Subtitle">
+			<English>请玩绿军</English>
+			<Russian>Пожалуйста играйте за зеленых</Russian>
+		</Key>
+	</Package>
+	<Package name="Perks">
+		<Key ID="STR_KOH_Perks">
+			<English></English>
+			<Russian></Russian>
+		</Key>
+		<Key ID="STR_KOH_Perks__Title">
+			<English></English>
+			<Russian></Russian>
+		</Key>
+		<Key ID="STR_KOH_Perks__Description">
+			<English></English>
+			<Russian></Russian>
+		</Key>
+
+		<Key ID="STR_KOH_Perks_Ammo_Title">
+			<English>Ammo</English>
+			<Russian>Боезапас</Russian>
+		</Key>
+		<Key ID="STR_KOH_Perks_Ammo_Description">
+			<English>Gives you up to twice more ammo for your primary weapon and handgun. When combined with EXPLOSIVE perk it also gives you more underbarrel grenades. Extremely useful for infantrymen.</English>
+			<Russian>Добавляет вам в снаряжение вдвое больше боезапаса к основном оружие и пистолету. Когда совмещен с перком "Взрывчатка", так же позволяет вам взять больше подствольных гранат. Очень полезен для пехотинцев.</Russian>
+		</Key>
+		<Key ID="STR_KOH_Perks_Sniper_Title">
+			<English>MARKSMAN</English>
+			<Russian>Снайпер</Russian>
+		</Key>
+		<Key ID="STR_KOH_Perks_Sniper_Description">
+			<English>Grants access to long range and sniper rifles in primary loadout section and gives you Rangefinder instead of Binoculars. You get more ammo for sniper rifles when combined with AMMO perk.</English>
+			<Russian>Grants access to long range and sniper rifles in primary loadout section and gives you Rangefinder instead of Binoculars. You get more ammo for sniper rifles when combined with AMMO perk.</Russian>
+		</Key>
+
+		<Key ID="STR_KOH_Perks_Machinegunner_Title">
+			<English></English>
+			<Russian></Russian>
+		</Key>
+		<Key ID="STR_KOH_Perks_Machinegunner_Description">
+			<English></English>
+			<Russian></Russian>
+		</Key>
+
+		<Key ID="STR_KOH_Perks_Launcher_Title">
+			<English></English>
+			<Russian></Russian>
+		</Key>
+		<Key ID="STR_KOH_Perks_Launcher_Description">
+			<English></English>
+			<Russian></Russian>
+		</Key>
+
+		<Key ID="STR_KOH_Perks_Engineer_Title">
+			<English></English>
+			<Russian></Russian>
+		</Key>
+		<Key ID="STR_KOH_Perks_Engineer_Description">
+			<English></English>
+			<Russian></Russian>
+		</Key>
+	</Package>
+	<Package name="Dialog_Costumes">
+		<Key ID="STR_KOH_Costumes_TooltipArmorRates">
+			<English>护甲值:</English>
+			<Russian>Степень бронирования:</Russian>
+		</Key>
+		<Key ID="STR_KOH_Costumes_TooltipNoArmor">
+			<English>无装甲</English>
+			<Russian>Без брони</Russian>
+		</Key>
+		<Key ID="STR_KOH_Costumes_TooltipSpeed">
+			<English>速度</English>
+			<Russian>Скорость</Russian>
+		</Key>
+		<Key ID="STR_KOH_Costumes_HitFace">
+			<English>面部</English>
+			<Russian>Лицо</Russian>
+		</Key>
+		<Key ID="STR_KOH_Costumes_HitNeck">
+			<English>脖子</English>
+			<Russian>Шея</Russian>
+		</Key>
+		<Key ID="STR_KOH_Costumes_HitHead">
+			<English>头部</English>
+			<Russian>Голова</Russian>
+		</Key>
+		<Key ID="STR_KOH_Costumes_HitPelvis">
+			<English>护裆</English>
+			<Russian>Таз</Russian>
+		</Key>
+		<Key ID="STR_KOH_Costumes_HitAbdomen">
+			<English>腹部</English>
+			<Russian>Живот</Russian>
+		</Key>
+		<Key ID="STR_KOH_Costumes_HitDiaphragm">
+			<English>横膈膜</English>
+			<Russian>Диафрагма</Russian>
+		</Key>
+		<Key ID="STR_KOH_Costumes_HitChest">
+			<English>胸部</English>
+			<Russian>Грудная клетка</Russian>
+		</Key>
+		<Key ID="STR_KOH_Costumes_HitBody">
+			<English>身体</English>
+			<Russian>Тело</Russian>
+		</Key>
+		<Key ID="STR_KOH_Costumes_HitArms">
+			<English>手臂</English>
+			<Russian>Руки</Russian>
+		</Key>
+		<Key ID="STR_KOH_Costumes_HitHands">
+			<English>手掌</English>
+			<Russian>Предплечье</Russian>
+		</Key>
+		<Key ID="STR_KOH_Costumes_HitLegs">
+			<English>腿部</English>
+			<Russian>Ноги</Russian>
+		</Key>
+	</Package>
+	<Package name="Dialog_BuyAgain">
+		<Key ID="STR_KOH_Dlg_PotentialBonusText">
+			<English>游戏结束奖励</English>
+			<Russian>Бонус в конце</Russian>
+		</Key>
+		<Key ID="STR_KOH_Dlg_PotentialBonusTooltop">
+			<English>你在本局在此阵营获得的全部\n经验和金钱将换算成终局奖励.\n终局奖励是你潜在的得分\n乘以你方阵营得分的百分数.\n所以获胜方将获得全部奖励(100分=100%)</English>
+			<Russian>Все ваши заработанные деньги и опыт\nплюсуются к потенциальному бонусу\nв конце игры. Итоговый бонус это потенциальный\nбонус умноженный на процент количества\nочков вашей команды, то есть победившая\nкоманда получит 100% бонуса за 100 очков.</Russian>
+		</Key>
+	</Package>
+	<Package name="Dialog_Teamkilled">
+		<Key ID="STR_KOH_Dlg_Teamkilled_Title">
+			<English>你被tk啦！</English>
+			<Russian>Вас убил свой</Russian>
+		</Key>
+		<Key ID="STR_KOH_Dlg_Teamkilled_Text">
+			<English>Player %1 has teamkilled you (%2) which is against the rules when you play as %3. If this happened by mistake and they didn't kill you on purpose, then they should apologize and you should press the "Forgive" button. If they didn't explain themself and killed on purpose, then you should press "Punish" button. When player gets punished twice, they will be removed from your team and will be able to play as Independent only.</English>
+			<Russian>Игрок %1 убил вас (%2), как игрока своей команды, что против правил при игре за %3. Если произошла ошибка или он убил вас случайно, он должен извиниться, а вы нажать кнопку "Простить". Если же игрок не объяснил почему вас убил и сделал это намеренно, вы должны нажать кнопку "Наказать". После двух наказаний, игрока удалят из команды и он сможет играть только за Независимых.</Russian>
+		</Key>
+		<Key ID="STR_KOH_Dlg_Teamkilled_StoryRequest">
+			<English>Please explain what happened if you want teamkiller banned:</English>
+			<Russian>Если вы хотите чтобы игрока забанили, расскажите что случилось:</Russian>
+		</Key>
+		<Key ID="STR_KOH_Dlg_Teamkilled_TypeSHOT">
+			<English>shot with weapon</English>
+			<Russian>стрелял из оружия</Russian>
+		</Key>
+		<Key ID="STR_KOH_Dlg_Teamkilled_TypeROADKILL">
+			<English>ran over you</English>
+			<Russian>раздавил техникой</Russian>
+		</Key>
+		<Key ID="STR_KOH_Dlg_Teamkilled_TypeVEHICLE">
+			<English>shot with vehicle</English>
+			<Russian>стрелял из техники</Russian>
+		</Key>
+		<Key ID="STR_KOH_Dlg_Teamkilled_Punish">
+			<English>惩罚</English>
+			<Russian>Наказать</Russian>
+		</Key>
+		<Key ID="STR_KOH_Dlg_Teamkilled_Forgive">
+			<English>原谅</English>
+			<Russian>Простить</Russian>
+		</Key>
+	</Package>
+	<Package name="Dialog_Groups">
+		<Key ID="STR_KOH_Dlg_Groups_MainTitle">
+			<English>组队管理</English>
+			<Russian>Управление группами</Russian>
+		</Key>
+		<Key ID="STR_KOH_Dlg_Groups_PlayerListTitle">
+			<English>玩家列表</English>
+			<Russian>Список игроков</Russian>
+		</Key>
+		<Key ID="STR_KOH_Dlg_Groups_YourGroupTitle">
+			<English>你的小队</English>
+			<Russian>Ваша группа</Russian>
+		</Key>
+		<Key ID="STR_KOH_Dlg_Groups_StatusAlone">
+			<English>你目前不属于任何小队. 你可以邀请其他玩家加入你的小队, 或者接受别人的邀请加入其他小队. 小队成员间将共享视野.</English>
+			<Russian>Вы не состоите ни в одной группе. Вы можете отправить приглашение другим игрокам, чтобы они вошли к вам в группу или принять приглашения других игроков.</Russian>
+		</Key>
+		<Key ID="STR_KOH_Dlg_Groups_StatusLeader">
+			<English>你正在带领一个小队，你可以邀请其他玩家加入小队或者踢出小队成员.</English>
+			<Russian>Вы являетесь лидером группы. Вы можете пригласить дополнительных игроков или же убрать уже имеющихся.</Russian>
+		</Key>
+		<Key ID="STR_KOH_Dlg_Groups_StatusMember">
+			<English>你目前是小队队员，只有队长可以邀请玩家加入！你可以点击"离开小队"来退出.</English>
+			<Russian>Вы являетесь членом группы. Только лидер может приглашать в группу игроков. Чтобы покинуть группу, выберите лидера в списке и нажмите "Выйти"</Russian>
+		</Key>
+		<Key ID="STR_KOH_Dlg_Groups_ActionKick">
+			<English>踢出小队</English>
+			<Russian>Исключить</Russian>
+		</Key>
+		<Key ID="STR_KOH_Dlg_Groups_ActionLeave">
+			<English>离开小队</English>
+			<Russian>Выйти</Russian>
+		</Key>
+		<Key ID="STR_KOH_Dlg_Groups_ActionSendInvite">
+			<English>邀请玩家</English>
+			<Russian>Пригласить</Russian>
+		</Key>
+		<Key ID="STR_KOH_Dlg_Groups_ActionCancelInvite">
+			<English>取消邀请</English>
+			<Russian>Отменить</Russian>
+		</Key>
+		<Key ID="STR_KOH_Dlg_Groups_ActionAcceptInvite">
+			<English>接受邀请</English>
+			<Russian>Войти в группу</Russian>
+		</Key>
+		<Key ID="STR_KOH_Dlg_Groups_HintStatusChanged">
+			<English>This player's status has changed</English>
+			<Russian>Статус этого игрока изменился</Russian>
+		</Key>
+	</Package>
+</Project>
