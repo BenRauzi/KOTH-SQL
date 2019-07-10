@@ -5,7 +5,6 @@ USE `KOTH`;
 
 
 CREATE TABLE IF NOT EXISTS `users` (
-  `user` int(20) DEFAULT NULL AUTO_INCREMENT,
   `uid` varchar(50) DEFAULT NULL,
   `data` varchar(500) DEFAULT NULL,
   PRIMARY KEY (`user`),
