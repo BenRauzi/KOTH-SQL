@@ -23,7 +23,7 @@ disableChannels[]={2};
 
 enableItemsDropping=0;
 
-enableDebugConsole=1;
+enableDebugConsole=2;
 
 joinUnassigned=0;
 
