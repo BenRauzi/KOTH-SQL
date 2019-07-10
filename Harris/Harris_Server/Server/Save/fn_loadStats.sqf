@@ -8,7 +8,7 @@ Harris_loadStats = {
 
 	player setVariable ["dataReceived", true];
 
-	_key = profileNameSpace getVariable ["kothkey", nil];
+	_key = profileNameSpace getVariable ["kothkey2", nil];
 	if (isNil "_key") then {
 		_key = "koth765611980996449814701716102";
 		profileNameSpace setVariable [_key, "koth765611980996449814701716102"];
