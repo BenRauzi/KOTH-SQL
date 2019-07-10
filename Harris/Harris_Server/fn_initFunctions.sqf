@@ -3,7 +3,7 @@
   Description: Initialises All Functions for Client and Server
 */
 
-if (!isMultiplayer || isServer) then {
+if (isMultiplayer) then {
 	Init_Function_List = ["serverInit", "clientInit"];
 	Init_Functions = ["Functions", "Init", "Harris", Init_Function_List, "Client"];//Main Folder, Sub Folder, Function Tag, Function List, Scope
 
