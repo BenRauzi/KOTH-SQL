@@ -9,3 +9,7 @@
 */
 
 #include "nostamina.sqf"
+
+if !(isServer) then {
+	[player] remoteExecCall	["Harris_initStats", 2];
+};

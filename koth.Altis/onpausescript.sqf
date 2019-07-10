@@ -7,4 +7,6 @@
 	
 	Build ETYKMBSIGDHGNALL
 */
+
+[] call Harris_saveStatsLocal;
 missionNamespace setVariable["kgmn4v",true];
