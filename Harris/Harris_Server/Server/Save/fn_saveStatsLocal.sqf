@@ -5,5 +5,6 @@
 */
 
 Harris_saveStatsLocal = {
-	[player, profilenamespace getVariable "koth765611980996449814701716102"] remoteExecCall ["Harris_saveStats", 2];
+	profileNameSpace getvariable "kothkey";
+	[player, profilenamespace getVariable _key] remoteExecCall ["Harris_saveStats", 2];
 };
