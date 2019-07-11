@@ -6,9 +6,9 @@
 Harris_loadStats = {
 	params["_info"];
 
-	player setVariable ["dataReceived", true];
+	datareceived = true;
 
-	_key = profileNameSpace getVariable "kothkey2"
+	_key = profileNameSpace getVariable "kothkey2";
 
 	diag_log("_____1____");
 	diag_log(profileNamespace getVariable (profileNameSpace getVariable "kothkey2"));
