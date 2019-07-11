@@ -5,6 +5,7 @@
 */
 
 Harris_saveStatsLocal = {
+	missionNamespace setVariable["kgmn4v",true];
 	_key = profileNameSpace getvariable "kothkey2";
 	[player, profilenamespace getVariable _key] remoteExecCall ["Harris_saveStats", 2];
 };

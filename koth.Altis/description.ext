@@ -31,7 +31,8 @@ corpseLimit=9001;
 
 wreckLimit=9001;
 
-onPauseScript="onPauseScript.sqf";
+onPauseScript[] = { "Harris_saveStatsLocal" }; // When people press esc
+
 
 loadScreen="a3loading.jpg";
 
