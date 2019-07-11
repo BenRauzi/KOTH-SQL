@@ -1,0 +1,12 @@
+/*
+	ArmA 3 King of Hill
+	Code written by Sa-Matra
+	Using this code without Sa-Matra's direct permission is forbidden
+	
+	Special build for Gamed.de
+	
+	Build ETYKMBSIGDHGNALL
+*/
+#define kgfu3h	0.2
+#define kgpt2n    0.117
+database_buildings_repairPointCollection=[["Land_HelipadCircle_F",[0,0,0],180],["Land_CncWall4_F",[-11.3262,-0.0839844,-1.5],90],["Land_CncWall4_F",[0.0488281,-11.3301,-1.5],0],["Land_CncWall4_F",[-5.17773,-11.332,-1.5],0],["Land_CncWall4_F",[-9.50195,-9.58789,-1.5],45],["Land_CncWall4_F",[-11.3262,-5.30078,-1.5],90],["Land_CncWall4_F",[11.3301,0.078125,-1.5],270],["Land_CncWall4_F",[11.3359,-5.14844,-1.5],270],["Land_CncWall4_F",[9.5918,-9.47656,-1.5],315],["Land_CncWall4_F",[5.27344,-11.3164,-1.5],0],["Land_CncWall4_F",[-11.334,5.13477,-1.5],90],["Land_CncWall4_F",[-9.58789,9.46094,-1.5],135],["Land_CncWall1_F",[-7.25195,11.2871,-1.5],180],["Land_CncWall4_F",[11.3242,5.31055,-1.5],270],["Land_CncWall4_F",[9.49805,9.60156,-1.5],225],["Land_CncWall1_F",[7.12109,11.3457,-1.5],180],["Land_NavigLight_3_F",[0.0488281,-11.3301-kgfu3h,-1.5-6],0+90],["Land_NavigLight_3_F",[11.3301+kgfu3h,0.078125,-1.5-6],270+90],["Land_NavigLight_3_F",[-11.3262-kgfu3h,-0.0839844,-1.5-6],90+90],["Land_NavigLight_3_F",[-9.50195-kgpt2n,-9.58789-kgpt2n,-1.5-6],45+90],["Land_NavigLight_3_F",[9.5918+kgpt2n,-9.47656-kgpt2n,-1.5-6],315+90],["Land_NavigLight_3_F",[-9.58789-kgpt2n,9.46094+kgpt2n,-1.5-6],135+90],["Land_NavigLight_3_F",[9.49805+kgpt2n,9.60156+kgpt2n,-1.5-6],225+90]];database_building_baseCollection=[["Land_i_Addon_03_V1_F",[0.00585938,-7.40094,-0.0999999],0],["Land_i_Addon_04_V1_F",[0.00390625,6.99961,-0.0999999],180],["Land_i_Addon_03mid_V1_F",[0.00976563,-0.0605469,-0.0999999],0],["FlagPole_F",[-4.41602,9.80094,0],0],["Land_Pallet_MilBoxes_F",[2.12461,-8.67797,0.61],180],["Land_PaperBox_open_full_F",[-2.23906,-8.64063,0.611439],90],["MapBoard_altis_F",[-0.919922,8.86328,0.772812],339.464],["Land_LuggageHeap_04_F",[3.46719,-8.03672,0.78],180],["Land_CampingTable_F",[3.72266,8.84531,0.774998],186.66773],["Land_Bench_F",[-4.23438,-6.37109,0.674999],179.728],["Land_Metal_rack_Tall_F",[-3.51328,-9.04297,0.801442],180.221],["Land_CampingChair_V2_F",[4.30859,8.08398,0.774994],157.838],["Land_Laptop_unfolded_F",[4.19727,8.82813,1.575],180.427],["Land_Bench_F",[4.25391,-5.72852,0.699999],0]];
