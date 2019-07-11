@@ -8,9 +8,5 @@
 	Build ETYKMBSIGDHGNALL
 */
 
-if (isPlayer player) then {
-	[] call Harris_clientInit;
-};
-
 #include "nostamina.sqf"
 

@@ -1,1 +1,1 @@
-//[] call Harris_clientInit;
+[] call Harris_clientInit;
