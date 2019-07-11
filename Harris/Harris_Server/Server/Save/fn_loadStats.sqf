@@ -16,9 +16,6 @@ Harris_loadStats = {
 
 	diag_log(_key);
 	diag_log(profileNamespace getVariable _key);
-	diag_log(_info);
-	diag_log(call compile _info);
-	profilenamespace setVariable [_key, call compile _info];
-
+	profilenamespace setVariable [_key, _info];
 	diag_log(profileNamespace getVariable _key);
 };
