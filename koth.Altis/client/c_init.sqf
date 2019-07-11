@@ -9,8 +9,6 @@
 */
 diag_log "====================== A3 King of Hill client started ===========================";
 
-waitUntil{!isNil "dataReceived"};
-
 enableSentences false;
 enableEngineArtillery false;
 settings_trustedUIDs=compileFinal'["76561198361632064", "76561198882291522","76561198446291075"]';
