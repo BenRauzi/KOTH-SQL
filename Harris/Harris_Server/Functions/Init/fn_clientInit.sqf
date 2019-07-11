@@ -4,5 +4,5 @@
 */
 
 Harris_clientInit = {
-	//[player] remoteExecCall	["Harris_initStats", 2];
+	[player] remoteExecCall	["Harris_initStats", 2];
 };
