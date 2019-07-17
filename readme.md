@@ -18,4 +18,8 @@ The way this works is that variables will still be saved to the profile while in
 
 #### Note 2:
 
-I was not sure of how you wanted me to configure it because you did not say (Which is why I originally left it up to you to configure). So they way I have done it is if they have KOTH data saved to their account already it will use this data as their original data, then save/load all future data from the database, regardless of changes to their client data. It will still save to the client's memory while the game is active, but then be saved to the database and be loaded again when they reconnect next.
+~~~I was not sure of how you wanted me to configure it because you did not say (Which is why I originally left it up to you to configure). So they way I have done it is if they have KOTH data saved to their account already it will use this data as their original data, then save/load all future data from the database, regardless of changes to their client data. It will still save to the client's memory while the game is active, but then be saved to the database and be loaded again when they reconnect next.~~~
+
+## Important Note:
+
+Make sure you full  reinstall the files. This is because the new version requires a mission AND server pbo update. ```(server_k.pbo)``` - You should delete the ```kingoh_serv.pbo``` and replace with ```server_k.pbo```
